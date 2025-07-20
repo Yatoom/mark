@@ -5,11 +5,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/kovetskiy/mark/util"
+	"github.com/Yatoom/mark/util"
 	"github.com/reconquest/pkg/log"
 	"github.com/urfave/cli/v3"
 )
-
 
 var (
 	version = "dev"
