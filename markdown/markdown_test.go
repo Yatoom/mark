@@ -9,10 +9,10 @@ import (
 	"strings"
 	"testing"
 
-	mark "github.com/kovetskiy/mark/markdown"
-	"github.com/kovetskiy/mark/stdlib"
-	"github.com/kovetskiy/mark/types"
-	"github.com/kovetskiy/mark/util"
+	mark "github.com/Yatoom/mark/markdown"
+	"github.com/Yatoom/mark/stdlib"
+	"github.com/Yatoom/mark/types"
+	"github.com/Yatoom/mark/util"
 	"github.com/stretchr/testify/assert"
 	"github.com/urfave/cli/v3"
 )

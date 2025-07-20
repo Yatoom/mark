@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/Yatoom/mark/attachment"
 	mermaid "github.com/dreampuf/mermaid.go"
-	"github.com/kovetskiy/mark/attachment"
 	"github.com/reconquest/pkg/log"
 )
 

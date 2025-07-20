@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"regexp"
 
-	"github.com/kovetskiy/mark/confluence"
-	"github.com/kovetskiy/mark/metadata"
+	"github.com/Yatoom/mark/confluence"
+	"github.com/Yatoom/mark/metadata"
 	"github.com/reconquest/karma-go"
 	"github.com/reconquest/pkg/log"
 	"golang.org/x/tools/godoc/util"

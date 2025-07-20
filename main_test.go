@@ -3,7 +3,7 @@ package main
 import (
 	"testing"
 
-	"github.com/kovetskiy/mark/util"
+	"github.com/Yatoom/mark/util"
 	"github.com/reconquest/pkg/log"
 	"github.com/stretchr/testify/assert"
 	"github.com/urfave/cli/v3"

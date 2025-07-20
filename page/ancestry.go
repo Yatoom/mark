@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/kovetskiy/mark/confluence"
+	"github.com/Yatoom/mark/confluence"
 	"github.com/reconquest/karma-go"
 	"github.com/reconquest/pkg/log"
 )
