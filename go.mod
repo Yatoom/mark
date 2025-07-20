@@ -1,4 +1,4 @@
-module github.com/kovetskiy/mark
+module github.com/Yatoom/mark
 
 go 1.24.0
 
