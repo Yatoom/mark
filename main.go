@@ -17,7 +17,7 @@ var (
 
 const (
 	usage       = "A tool for updating Atlassian Confluence pages from markdown."
-	description = `Mark is a tool to update Atlassian Confluence pages from markdown. Documentation is available here: https://github.com/kovetskiy/mark`
+	description = `Mark is a tool to update Atlassian Confluence pages from markdown. Documentation is available here: https://github.com/Yatoom/mark`
 )
 
 func main() {

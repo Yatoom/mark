@@ -10,7 +10,7 @@ builds:
   goos:
   - darwin
   - linux
-  # windows fails with an error https://github.com/kovetskiy/mark/runs/5034726426?check_suite_focus=true
+  # windows fails with an error https://github.com/Yatoom/mark/runs/5034726426?check_suite_focus=true
   # - windows
   goarch:
   - amd64
@@ -49,7 +49,7 @@ brews:
 
   directory: Formula
 
-  homepage: "https://github.com/kovetskiy/mark"
+  homepage: "https://github.com/Yatoom/mark"
   description: "Sync your markdown files with Confluence pages."
   license: "Apache 2.0"
 

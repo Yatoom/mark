@@ -1,6 +1,6 @@
 FROM golang:1.24.5 AS builder
 ENV GOPATH="/go"
-WORKDIR /go/src/github.com/kovetskiy/mark
+WORKDIR /go/src/github.com/Yatoom/mark
 COPY / .
 RUN make get \
 && make build
@@ -12,7 +12,7 @@ RUN apt-get update \
 && apt-get clean \
 && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-COPY --from=builder /go/src/github.com/kovetskiy/mark/mark /bin/
+COPY --from=builder /go/src/github.com/Yatoom/mark/mark /bin/
 WORKDIR /docs
 
 ENTRYPOINT ["dumb-init", "--"]
